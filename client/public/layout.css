@@ -1,0 +1,240 @@
+@font-face{
+
+    font-family: f1;
+    src: url('abel.ttf');
+}
+
+@font-face{
+
+    font-family: f2;
+    src: url('abg.ttf');
+
+
+}
+
+.navbar{
+
+    background-color: black;
+    padding: 40px;
+    list-style: none;
+  
+    
+}
+
+.navbar a{
+
+   
+    margin: auto;
+    font-family: f2;
+    font-size: 20px;
+    text-decoration: none;
+    color: wheat;
+    padding: 10px;
+
+}
+
+.navbar a:hover{
+
+    color: gray;
+
+}
+
+h2{
+
+    padding-top: 40px;
+    font-family: f2;
+    color: teal;
+
+}
+
+label{
+
+    font-family: f1;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+div{
+
+    margin: auto;
+
+}
+
+
+div.signup_con{
+
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+  
+}
+
+button{
+
+    background-color:  #146473;
+    color: whitesmoke;
+    float: center;
+    
+    
+
+}
+
+button:hover{
+
+    background-color: gray;
+    color: #146473;
+}
+
+button.regbtn{
+
+    border-radius: 10px;
+    
+
+}
+
+button.cancelbtn{
+
+    border-radius: 10px;
+
+}
+
+button.loginbtn{
+
+    border-radius: 10px;
+
+}
+
+input::placeholder{
+
+    font-family: f1;
+    
+    
+}
+
+div.login_con{
+
+    padding: 300px;
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+   
+    
+
+}
+
+div.col-md-3{
+
+    border: 3px double teal;
+    padding-left: 20px;
+
+
+
+}
+
+div.form-group-two{
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    
+}
+
+h1{
+
+    font-family: f2;
+    font-size: 10px;
+    color: teal;
+    padding-top: 20px;
+
+
+}
+
+.home img{
+    width: 40%;
+    height: 40%;
+    
+}
+
+div.home {
+    background-color: #1a0900;
+}
+
+div.members {
+    background-color: #1a0900;
+}
+
+div.news {
+    background-color: #1a0900;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #b33c00;
+    font-weight: bolder;
+}
+
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #b33c00;
+    font-weight: bolder;
+}
+
+
+td{
+    font-style: italic;
+    color: #b33c00;
+}
+
+footer{
+	background-color:#4d1f00;
+    margin-top: 10px;
+    padding: 15px 15px;
+	text-align: right;
+	width: 100%;
+
+}
+
+#persons{
+    margin-top: 50px;
+    background-repeat: no-repeat;
+	background-size: 100%;
+	padding-left:-25px;
+	position: left;
+}
+
+.member td img{
+    border-radius: 50%;
+    width: 100%;
+	height: 50%;
+	
+}
+
+button {
+    background-color: #5c5cd6d;
+    color: white;
+    
+  }
+
+#c1, #c2, #c3{
+	border: 5px solid #334d4d;
+   padding-bottom: 8px;
+    border-radius: 22px;
+	font-size: 1.1em;
+}
+
+p{
+	text-align: center;
+}
+table{
+	margin-right: 70px;
+}
+
+.headline td img {
+    width: 500px;
+    height: 400px;
+}
